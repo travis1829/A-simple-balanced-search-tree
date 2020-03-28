@@ -9,7 +9,7 @@ The balancing method is explained as, <br/>
 
 In more details, tree operations are done as following.
 - **Insert**
-  1. Insert a leaf node (like in a basic BST).
+  1. Insert a leaf node (just as in a basic BST).
   2. Re-follow the trail from the leaf node to the root. For each node t, do Update(t).
 - **Delete**
     1. Delete a leaf node.
