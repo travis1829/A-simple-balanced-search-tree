@@ -12,7 +12,7 @@ In more details, tree operations are done as following.
   1. Insert a leaf node (like in a basic BST).
   2. Re-follow the trail from the leaf node to the root. For each node t, do Update(t).
 * Delete
-  1. Delete a leaf node.c
+  1. Delete a leaf node.
   2. Re-follow the trail from the leaf node to the root. For each node t, do Update(t).
 * Update(t)
   1. Decrease t.timer by 1.
