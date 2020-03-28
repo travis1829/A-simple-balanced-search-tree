@@ -1,7 +1,7 @@
 A-simple-balanced-search-tree
 =============
 
-This is an implementation of a simple, balanced, binary search tree that I made as a personal project to make implementing balanced BSTs simpler. It's a lot similar to the Scapegoat tree since this was based on it.
+This is a C++ implementation of a simple, balanced, binary search tree that I made as a personal project to make implementing balanced BSTs simpler. It's a lot similar to the Scapegoat tree since this was based on it.
 
 The balancing method is explained as, <br/>
 <strong>"Every subtree has a timer, and we decrease it by 1 each time we insert or delete a node in the subtree. If a subtree’s timer reaches 0, we rebuild it and reset its timer to a fraction of its size."</strong>
