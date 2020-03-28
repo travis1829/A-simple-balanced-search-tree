@@ -21,4 +21,4 @@ In more details, tree operations are done as following.
   1. GetCopy: Using an inorder traversal, copy all nodes of the subtree to an array.
   2. BuildTree: Make a perfectly balanced subtree using this array in a divide-and-conquer sense. We also reset each subtree’s timer.
   
-Details or proof can be found in the included draft. (Please note that it's a "draft")
+Details or proof can be found in the included draft.
