@@ -19,7 +19,7 @@ In more details, tree operations are done as following.
     2. If t.timer is now 0, *rebuild* the subtree rooted by t.
         - (An example way to rebuild) :
         1. Move all nodes to an array in increasing order, such as by using an inorder traversal.
-        2. Use a divide-and-conquer method to make a perfectly balanced tree from the array. Don't forget to reset the timer for every subtree.
+        2. Use a divide-and-conquer method to make a perfectly balanced tree from the array. Don't forget to reset the timer for each subtree.
   
 Compared to an implementation of an ordinatry BST, <strong>Search</strong> operations remain the same, and for **Insert** and **Delete** operations, everything we additionally need can be encapsulated inside a single **Update(t)** function.
   
