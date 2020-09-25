@@ -1,7 +1,7 @@
 A-simple-balanced-search-tree
 =============
 
-This is a C++ and python implementation of a simple, balanced, binary search tree that I made as a personal project to make implementing balanced BSTs simpler. It's based on the Scapegoat tree, so its kinda similar to it.
+This is a C++ implementation of a simple, balanced, binary search tree that I made as a personal project to make implementing balanced BSTs simpler. It's based on the Scapegoat tree, so its kinda similar to it.
 
 # How to use
 Just copy the SBST.h file and put it in your project file.
