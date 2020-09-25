@@ -5,7 +5,8 @@ This is a C++ implementation of a simple, balanced, binary search tree that I ma
 
 # How to use
 Just copy the SBST.h file and put it in your project file.
-To make a SBST that stores int keys, use
+
+In your source code, to make a SBST that stores int keys for example, use
 ```
 SBST<int> bst;
 ```
