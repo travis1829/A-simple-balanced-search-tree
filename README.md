@@ -3,7 +3,21 @@ A-simple-balanced-search-tree
 
 This is a C++ and python implementation of a simple, balanced, binary search tree that I made as a personal project to make implementing balanced BSTs simpler. It's based on the Scapegoat tree, so its kinda similar to it.
 
-The balancing method is explained as, <br/>
+# How to use
+Just copy the SBST.h file and put it in your project file.
+To make a SBST that stores int keys, use
+```
+SBST<int> bst;
+```
+and to search, insert, or delete a key, you can do something like
+```
+bst.search(10); //bool type
+bst.insert(20); //bool type
+bst.delete(20); //bool type
+```
+
+# Balancing method
+The balancing method can be explained as, <br/>
 **"Every subtree has a timer, and we decrease it by 1 each time we insert or delete a node in the subtree. If a subtree’s timer reaches 0, we simply rebuild it and reset its timer to a fraction of its size."**
 
 
@@ -21,6 +35,6 @@ In more details, tree operations are done as following.
         1. Move all nodes to an array in increasing order, such as by using an inorder traversal.
         2. Use a divide-and-conquer method to make a perfectly balanced tree from the array. Don't forget to reset the timer for each subtree.
   
-Compared to an implementation of an ordinatry BST, <strong>Search</strong> operations remain the same, and for **Insert** and **Delete** operations, everything we additionally need can be encapsulated inside a single **Update(t)** function.
+Compared to an implementation of an ordinatry BST, <strong>Search</strong> operations remain the same, and for **Insert** and **Delete** operations, everything we additionally need is encapsulated inside a single **Update(t)** function.
   
 Details or a proof can be found in the source files or the included draft.
