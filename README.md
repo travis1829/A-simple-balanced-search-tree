@@ -12,7 +12,7 @@ SBST<int> bst;
 ```
 and to search, insert, or delete a key, you can do something like
 ```
-bst.search(10); //bool type
+bst.search(10); //bool type, O(logn)
 bst.insert(20); //bool type, amortized O(logn)
 bst.delete(20); //bool type, amortized O(logn)
 ```
