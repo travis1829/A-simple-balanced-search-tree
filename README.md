@@ -38,4 +38,4 @@ In more details, tree operations are done as following.
   
 Compared to an implementation of an ordinatry BST, <strong>Search</strong> operations remain the same, and for **Insert** and **Delete** operations, everything we additionally need is encapsulated inside a single **Update(t)** function.
   
-Details or a proof can be found in the source files or the included draft.
+Details or a proof can be found in the source files or the included pdf file.
